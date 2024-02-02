@@ -1,0 +1,118 @@
+.list-style {
+  padding-left: 0px;
+  list-style-type: none;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid #7683cb;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 20px;
+  min-width: 300px;
+}
+@media screen and (min-width: 768px) {
+  .list-style {
+    padding: 20px;
+  }
+}
+.logo-content-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-right: 20px;
+}
+@media screen and (min-width: 768px) {
+  .logo-container {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    font-size: 22px;
+  }
+}
+.website-style {
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .gmail-style {
+    font-size: 28px;
+  }
+}
+.username-style {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .username-style {
+    font-size: 24px;
+  }
+}
+.password-style {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8fafc;
+}
+@media screen and (min-width: 768px) {
+  .password-style {
+    font-size: 22px;
+  }
+}
+.masked-password-style {
+  height: 20px;
+}
+.delete-button-style {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.delete-image-style {
+  height: 25px;
+  width: 25px;
+}
+@media screen and (min-width: 768px) {
+  .delete-image-style {
+    height: 32px;
+    width: 32px;
+  }
+}
+.orange {
+  background-color: #f97316;
+}
+.red {
+  background-color: #b91c1c;
+}
+.light-blue {
+  background-color: #0ea5e9;
+}
+.emerald {
+  background-color: #10b981;
+}
+.amber {
+  background-color: #7683cb;
+}
+.blue {
+  background-color: #0b69ff;
+}
+.teal {
+  background-color: #14b8a6;
+}
